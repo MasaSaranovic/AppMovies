@@ -15,6 +15,7 @@ namespace Aplikacija1.Models
         public string Name { get; set; }
 
         public bool isSubscribedToNewsletter { get; set; }
+        public DateTime? Birthdate { get; set; }
 
         public MembershipType MembershipType { get; set; }
         public byte MembershipTypeId { get; set; }
