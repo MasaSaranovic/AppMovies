@@ -18,6 +18,8 @@ namespace Aplikacija1.Models
         public DateTime? Birthdate { get; set; }
 
         public MembershipType MembershipType { get; set; }
+        
+        [Display(Name = "Membership Type")]
         public byte MembershipTypeId { get; set; }
     }
 }
