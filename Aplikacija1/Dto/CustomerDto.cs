@@ -14,6 +14,7 @@ namespace Aplikacija1.Dto
         [Required(ErrorMessage = "Please enter customer's name.")]
         [StringLength(255)]
         public string Name { get; set; }
+        public MembershipTypeDto MembershipType { get; set; }
 
         public bool isSubscribedToNewsletter { get; set; }
 
